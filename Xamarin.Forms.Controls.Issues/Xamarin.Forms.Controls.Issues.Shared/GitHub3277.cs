@@ -26,7 +26,8 @@ namespace Xamarin.Forms.Controls.Issues
 					new RowDefinition{
 						Height = new GridLength(1, GridUnitType.Auto)
 					}
-				}
+				},
+				RowSpacing = 0
 			};
 
 			var rowZeroLabel = new Label
